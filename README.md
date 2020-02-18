@@ -1,6 +1,8 @@
 gatling-assertion-decoder 
 ---
 
+I think this could be useful for people who are trying to process gatling's simulation.log file.
+
 Gatling pickles assertion objects and converts them to Base64 strings then writes them to simulation.log file. 
 Later in the report generation phase, it decrypts them and computes the assertions. 
 
